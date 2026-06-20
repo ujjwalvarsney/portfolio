@@ -1,0 +1,138 @@
+UJJWAL VARSNEY
+Senior UX Designer | Product Designer
++91 87096 22128 | ujjwalvarsney@gmail.com | www.varsney.com | linkedin.com/in/ujjwalvarsney
+
+================================================================================
+SUMMARY
+================================================================================
+
+Senior UX Designer with 5+ years designing enterprise SaaS products across
+12+ industries - healthcare, manufacturing, automation, pharma, agriculture,
+education, and logistics. I build AI-integrated design workflows and scalable
+design systems that turn complex operational tools into products people
+actually use. Recognized for measurable business impact and 100% client
+satisfaction (CSAT) across 6 quarters.
+
+================================================================================
+SKILLS
+================================================================================
+
+Research and Design: User Research, Usability Testing, A/B Testing, User
+Flows, Wireframing, Prototyping (Lo-fi and Hi-fi), Interaction Design,
+Visual Design, Information Architecture, Journey Mapping, Responsive Design,
+User-Centered Design (UCD), Design Systems, Design Tokens, Design Ops,
+Storyboarding, Accessibility (WCAG 2.2), Design Thinking
+
+AI and Emerging Tech: AI-Assisted UX, Agentic Design Workflows, Figma AI,
+Figma Make, Claude (Anthropic), Conversational UX, LLM Design Patterns,
+Prompt Engineering for Design, Data-Informed Design
+
+Tools: Figma, Figma Dev Mode, Sketch, Adobe XD, Adobe Creative Cloud,
+Zeplin, Miro, Hotjar, Maze, Pendo, Google Analytics (GA4), Jira
+
+Platforms: Web, iOS, Android
+
+Process and Leadership: Agile and Scrum, Stakeholder Management, Design
+Strategy, Product Strategy, OKRs, North Star Metrics, Competitive Analysis,
+Mentorship, Cross-Functional Collaboration, Design Critique, Front-End
+Literacy (HTML and CSS)
+
+================================================================================
+EXPERIENCE
+================================================================================
+
+CES (Enterprise Software Consultancy, 1500+ employees) - Chennai, TN
+
+SENIOR UX DESIGNER | Promoted from UX Designer        Mar 2023 - Present
+--------------------------------------------------------------------------
+
+- Led design strategy for enterprise platforms, internal dashboards, and
+  operational systems across 12+ domains (healthcare, manufacturing,
+  automation, pharma, agriculture, education, logistics) serving 20k+
+  end-users, driving a 65% increase in user satisfaction scores.
+
+- Built and scaled a proprietary AI design workflow using Claude, Figma AI,
+  and custom prompt pipelines that automates user flow generation, component
+  QA, and WCAG 2.2 accessibility audits, reducing design iteration cycles
+  by 3x across all active projects.
+
+- Owned a cross-platform design system (85+ components, 360+ design tokens),
+  cutting component design time by 20% and enforcing visual design
+  consistency across web, iOS, and Android.
+
+- Drove stakeholder alignment with product managers and engineering leads
+  through Agile and Scrum ceremonies, mapping OKRs to UX outcomes and
+  earning 100% CSAT across 6 quarters spanning multiple projects.
+
+- Mentored 6 junior designers (direct reports) on user research methods,
+  design thinking, design critique, and client communication.
+
+- Led cross-functional collaboration with marketing and engineering on POCs,
+  competitive analysis for new product opportunities, and UX onboarding for
+  incoming projects. Championed responsive design and accessibility (WCAG
+  2.2) across all deliverables.
+
+UX DESIGNER                                            Jul 2022 - Mar 2023
+--------------------------------------------------------------------------
+
+- Designed B2B and consumer-facing applications (mobile and web) across 25+
+  projects, improving usability and adoption through user-centered design,
+  A/B testing, and iterative prototyping.
+
+- Ran usability testing, user interviews, heuristic evaluations, and journey
+  mapping using Hotjar and Maze, translating findings into data-informed
+  design decisions that reduced user onboarding drop-offs by 12%.
+
+- Built information architecture diagrams and onboarding flows for complex
+  enterprise workflows, applying design thinking to simplify multi-step
+  processes into intuitive experiences.
+
+- Partnered with front-end engineers via Figma Dev Mode to ensure
+  pixel-perfect handoff and design fidelity across iOS, Android, and web.
+
+--------------------------------------------------------------------------
+
+INNOVATIVE TECHNOLOGIES - Patna                        Nov 2020 - Jan 2022
+UI/UX Designer
+
+- Designed MVPs, prototypes, and interaction flows for responsive web and
+  mobile platforms, presenting to stakeholders to align cross-functional
+  teams and accelerate go-to-market decisions.
+
+- Established visual design standards and usability benchmarks across
+  responsive web and mobile products for early-stage clients.
+
+--------------------------------------------------------------------------
+
+SHARK REALTY - Patna                                    Mar 2020 - Nov 2020
+Graphic Designer
+
+- Created brand identity systems, marketing visuals, and social media
+  content supporting multi-channel campaign launches.
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+
+AI for Designers - IxDF (2026)
+Design Psychology - LinkedIn Learning (2024)
+Enterprise Design Thinking Practitioner - IBM (2024)
+Accessibility for UX (WCAG 2.2) - Udemy (2023)
+Google UX Design Specialization - Google (2021)
+
+================================================================================
+EDUCATION
+================================================================================
+
+BSc in Information Technology
+Sikkim Manipal University, Gangtok | 2017 - 2021
+
+================================================================================
+AWARDS
+================================================================================
+
+100% Client Satisfaction (CSAT) - 6 quarters across multiple projects | CES
+
+Client Champ Award - Recognized by CES Practice Head | Oct 2023
+
+================================================================================

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ujjwal Varsney - Senior UX Designer</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', 'Calibri', 'Arial', sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: #1a1a1a;
+    background: #fff;
+    padding: 48px 52px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Header */
+  .header { text-align: center; margin-bottom: 24px; }
+  .header h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #111;
+    margin-bottom: 4px;
+  }
+  .header .subtitle {
+    font-size: 11pt;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  .header .contact {
+    font-size: 9pt;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .header .contact span { white-space: nowrap; }
+  .header .contact .sep { color: #ccc; }
+
+  /* Section divider */
+  .divider {
+    border: none;
+    border-top: 1.5px solid #e0e0e0;
+    margin: 20px 0 14px;
+  }
+
+  /* Section titles */
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  /* Summary */
+  .summary {
+    font-size: 10pt;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Skills */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 6px 16px;
+    font-size: 9.5pt;
+  }
+  .skills-grid .label {
+    font-weight: 600;
+    color: #333;
+  }
+  .skills-grid .value {
+    color: #444;
+    line-height: 1.55;
+  }
+
+  /* Experience */
+  .company {
+    margin-bottom: 18px;
+  }
+  .company-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+  .company-name {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #222;
+  }
+  .company-location {
+    font-size: 9.5pt;
+    color: #666;
+  }
+  .company-context {
+    font-size: 9pt;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  .role {
+    margin-bottom: 14px;
+  }
+  .role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 6px;
+  }
+  .role-title {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #222;
+  }
+  .role-promoted {
+    font-size: 8.5pt;
+    font-weight: 500;
+    color: #777;
+    margin-left: 6px;
+  }
+  .role-date {
+    font-size: 9pt;
+    color: #666;
+    white-space: nowrap;
+  }
+
+  .bullets {
+    list-style: none;
+    padding: 0;
+  }
+  .bullets li {
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 5px;
+    font-size: 9.5pt;
+    color: #333;
+    line-height: 1.55;
+  }
+  .bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #999;
+  }
+
+  /* Certifications */
+  .cert-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 32px;
+    font-size: 9.5pt;
+    color: #333;
+  }
+  .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .cert-name { color: #333; }
+  .cert-org { color: #777; font-size: 9pt; }
+
+  /* Education */
+  .education {
+    font-size: 9.5pt;
+    color: #333;
+  }
+  .education .degree {
+    font-weight: 600;
+    color: #222;
+  }
+  .education .school {
+    color: #555;
+  }
+
+  /* Awards */
+  .awards {
+    font-size: 9.5pt;
+    color: #333;
+  }
+  .award-item {
+    margin-bottom: 4px;
+  }
+  .award-name {
+    font-weight: 600;
+    color: #222;
+  }
+  .award-detail {
+    color: #666;
+    font-size: 9pt;
+  }
+
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Ujjwal Varsney</h1>
+    <div class="subtitle">Senior UX Designer | Product Designer</div>
+    <div class="contact">
+      <span>+91 87096 22128</span>
+      <span class="sep">|</span>
+      <span>ujjwalvarsney@gmail.com</span>
+      <span class="sep">|</span>
+      <span>www.varsney.com</span>
+      <span class="sep">|</span>
+      <span>linkedin.com/in/ujjwalvarsney</span>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <hr class="divider" />
+  <div class="section-title">Summary</div>
+  <p class="summary">
+    Senior UX Designer with 5+ years designing enterprise SaaS products across 12+ industries - healthcare, manufacturing, automation, pharma, agriculture, education, and logistics. I build AI-integrated design workflows and scalable design systems that turn complex operational tools into products people actually use. Recognized for measurable business impact and 100% client satisfaction (CSAT) across 6 quarters.
+  </p>
+
+  <!-- SKILLS -->
+  <hr class="divider" />
+  <div class="section-title">Skills</div>
+  <div class="skills-grid">
+    <div class="label">Research and Design</div>
+    <div class="value">User Research, Usability Testing, A/B Testing, User Flows, Wireframing, Prototyping (Lo-fi and Hi-fi), Interaction Design, Visual Design, Information Architecture, Journey Mapping, Responsive Design, User-Centered Design (UCD), Design Systems, Design Tokens, Design Ops, Storyboarding, Accessibility (WCAG 2.2), Design Thinking</div>
+
+    <div class="label">AI and Emerging Tech</div>
+    <div class="value">AI-Assisted UX, Agentic Design Workflows, Figma AI, Figma Make, Claude (Anthropic), Conversational UX, LLM Design Patterns, Prompt Engineering for Design, Data-Informed Design</div>
+
+    <div class="label">Tools</div>
+    <div class="value">Figma, Figma Dev Mode, Sketch, Adobe XD, Adobe Creative Cloud, Zeplin, Miro, Hotjar, Maze, Pendo, Google Analytics (GA4), Jira</div>
+
+    <div class="label">Platforms</div>
+    <div class="value">Web, iOS, Android</div>
+
+    <div class="label">Process and Leadership</div>
+    <div class="value">Agile and Scrum, Stakeholder Management, Design Strategy, Product Strategy, OKRs, North Star Metrics, Competitive Analysis, Mentorship, Cross-Functional Collaboration, Design Critique, Front-End Literacy (HTML and CSS)</div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <hr class="divider" />
+  <div class="section-title">Experience</div>
+
+  <div class="company">
+    <div class="company-header">
+      <span class="company-name">CES</span>
+      <span class="company-location">Chennai, TN</span>
+    </div>
+    <div class="company-context">Enterprise Software Consultancy, 1500+ employees</div>
+
+    <div class="role">
+      <div class="role-header">
+        <div>
+          <span class="role-title">Senior UX Designer</span>
+          <span class="role-promoted">Promoted from UX Designer</span>
+        </div>
+        <span class="role-date">Mar 2023 - Present</span>
+      </div>
+      <ul class="bullets">
+        <li>Led design strategy for enterprise platforms, internal dashboards, and operational systems across 12+ domains (healthcare, manufacturing, automation, pharma, agriculture, education, logistics) serving 20k+ end-users, driving a 65% increase in user satisfaction scores.</li>
+        <li>Built and scaled a proprietary AI design workflow using Claude, Figma AI, and custom prompt pipelines that automates user flow generation, component QA, and WCAG 2.2 accessibility audits, reducing design iteration cycles by 3x across all active projects.</li>
+        <li>Owned a cross-platform design system (85+ components, 360+ design tokens), cutting component design time by 20% and enforcing visual design consistency across web, iOS, and Android.</li>
+        <li>Drove stakeholder alignment with product managers and engineering leads through Agile and Scrum ceremonies, mapping OKRs to UX outcomes and earning 100% CSAT across 6 quarters spanning multiple projects.</li>
+        <li>Mentored 6 junior designers (direct reports) on user research methods, design thinking, design critique, and client communication.</li>
+        <li>Led cross-functional collaboration with marketing and engineering on POCs, competitive analysis for new product opportunities, and UX onboarding for incoming projects. Championed responsive design and accessibility (WCAG 2.2) across all deliverables.</li>
+      </ul>
+    </div>
+
+    <div class="role">
+      <div class="role-header">
+        <span class="role-title">UX Designer</span>
+        <span class="role-date">Jul 2022 - Mar 2023</span>
+      </div>
+      <ul class="bullets">
+        <li>Designed B2B and consumer-facing applications (mobile and web) across 25+ projects, improving usability and adoption through user-centered design, A/B testing, and iterative prototyping.</li>
+        <li>Ran usability testing, user interviews, heuristic evaluations, and journey mapping using Hotjar and Maze, translating findings into data-informed design decisions that reduced user onboarding drop-offs by 12%.</li>
+        <li>Built information architecture diagrams and onboarding flows for complex enterprise workflows, applying design thinking to simplify multi-step processes into intuitive experiences.</li>
+        <li>Partnered with front-end engineers via Figma Dev Mode to ensure pixel-perfect handoff and design fidelity across iOS, Android, and web.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="company">
+    <div class="company-header">
+      <span class="company-name">Innovative Technologies</span>
+      <span class="company-location">Patna</span>
+    </div>
+    <div class="role">
+      <div class="role-header">
+        <span class="role-title">UI/UX Designer</span>
+        <span class="role-date">Nov 2020 - Jan 2022</span>
+      </div>
+      <ul class="bullets">
+        <li>Designed MVPs, prototypes, and interaction flows for responsive web and mobile platforms, presenting to stakeholders to align cross-functional teams and accelerate go-to-market decisions.</li>
+        <li>Established visual design standards and usability benchmarks across responsive web and mobile products for early-stage clients.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="company">
+    <div class="company-header">
+      <span class="company-name">Shark Realty</span>
+      <span class="company-location">Patna</span>
+    </div>
+    <div class="role">
+      <div class="role-header">
+        <span class="role-title">Graphic Designer</span>
+        <span class="role-date">Mar 2020 - Nov 2020</span>
+      </div>
+      <ul class="bullets">
+        <li>Created brand identity systems, marketing visuals, and social media content supporting multi-channel campaign launches.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <hr class="divider" />
+  <div class="section-title">Certifications</div>
+  <div class="cert-list">
+    <div class="cert-item">
+      <span class="cert-name">AI for Designers</span>
+      <span class="cert-org">IxDF (2026)</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-name">Design Psychology</span>
+      <span class="cert-org">LinkedIn Learning (2024)</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-name">Enterprise Design Thinking Practitioner</span>
+      <span class="cert-org">IBM (2024)</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-name">Accessibility for UX (WCAG 2.2)</span>
+      <span class="cert-org">Udemy (2023)</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-name">Google UX Design Specialization</span>
+      <span class="cert-org">Google (2021)</span>
+    </div>
+  </div>
+
+  <!-- EDUCATION + AWARDS side by side -->
+  <hr class="divider" />
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;">
+    <div>
+      <div class="section-title">Education</div>
+      <div class="education">
+        <div class="degree">BSc in Information Technology</div>
+        <div class="school">Sikkim Manipal University, Gangtok | 2017 - 2021</div>
+      </div>
+    </div>
+    <div>
+      <div class="section-title">Awards</div>
+      <div class="awards">
+        <div class="award-item">
+          <span class="award-name">100% Client Satisfaction (CSAT)</span>
+          <span class="award-detail"> - 6 quarters across multiple projects | CES</span>
+        </div>
+        <div class="award-item">
+          <span class="award-name">Client Champ Award</span>
+          <span class="award-detail"> - Recognized by CES Practice Head | Oct 2023</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
