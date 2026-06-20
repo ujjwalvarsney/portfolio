@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google'
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
@@ -24,11 +25,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} antialiased`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${playfair.variable} antialiased`}
+    >
       <body className="min-h-screen flex flex-col">
-        <a href="#main-content" className="skip-nav">Skip to main content</a>
+        <a href="#main-content" className="skip-nav">
+          Skip to main content
+        </a>
         {children}
       </body>
+
+      <GoogleAnalytics gaId="G-W3HS5NGGP9X" />
     </html>
   );
 }
