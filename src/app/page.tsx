@@ -13,6 +13,7 @@ import {
   GradientText,
   ScrollScale,
 } from "./components/hero-effects";
+import { MobileMenuLink } from "./components/mobile-menu-link";
 
 function Navbar() {
   return (
@@ -25,6 +26,12 @@ function Navbar() {
           Ujjwal<span className="text-text-muted">.</span>
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm text-text-secondary">
+          <a
+            href="#work"
+            className="hover:text-text-primary transition-colors duration-200 cursor-pointer"
+          >
+            Work
+          </a>
           <Link
             href="/about"
             className="hover:text-text-primary transition-colors duration-200 cursor-pointer"
@@ -92,6 +99,12 @@ function MobileMenu() {
         </svg>
       </label>
       <div className="fixed top-16 left-6 right-6 bg-bg-card/95 backdrop-blur-xl border border-white/[0.06] rounded-2xl p-6 flex-col gap-4 text-sm text-text-secondary hidden peer-checked:flex shadow-[0_8px_32px_rgba(0,0,0,0.5)]">
+        <MobileMenuLink
+          href="#work"
+          className="hover:text-text-primary transition-colors duration-200 cursor-pointer py-2"
+        >
+          Work
+        </MobileMenuLink>
         <Link
           href="/about"
           className="hover:text-text-primary transition-colors duration-200 cursor-pointer py-2"
